@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap&&family=Syne+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.container {
+    margin: auto;
+    padding: 30px;
+    height: 700px;
+    max-width: 800px;
+}
+
+#input {
+    border-radius: 10px;
+    margin: 100px 0 0 150px;
+    height: 70px;
+    width: 400px;
+    font-size: 30px;
+    border: none;
+    box-shadow: 10px 10px 3px black;
+}
+
+#time {
+    font-family: 'Wallpoet', cursive;
+}
+
+div h2 {
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    margin: 10px 0 0 0px;
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.add {
+    font-family: 'Syne Mono', monospace;
+    font-size: 30px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 3px black;
+    width: 120px;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.add:active {
+    transform: translate(3px, 3px);
+}
+
+.main {
+    margin-left: 20px;
+}
+
+table {
+    margin: auto;
+    border-spacing: 30px;
+    width: 800px;
+    padding: 30px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+table tr td {
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+}
+
+hr {
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:700px) {
+    .conatiner {
+        margin: auto;
+        max-width: 500px;
+        display: inline-block;
+    }
+    div h2 {
+        margin-left: 40px;
+        width: 400px;
+        font-size: 40px;
+    }
+    #input {
+        margin-left: 40px;
+    }
+    .main {
+        margin: 30px 0 0 200px;
+    }
+    hr {
+        display: none;
+    }
+    table {
+        border-spacing: 20px;
+        width: 500px;
+        font-size: 20px;
+    }
+}
