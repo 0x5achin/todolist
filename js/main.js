@@ -34,3 +34,8 @@ function Mytime() {
 }
 
 Mytime()
+
+function clr() {
+    document.getElementById('input').value = ''
+
+}
